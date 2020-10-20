@@ -1,0 +1,148 @@
+/*#1*/
+/*
+.block{
+	margin: 0 auto;
+	background-color: rgba(133,133,133, 0.3);
+	display: flex;
+}
+
+.one-block{
+	width: 300px;
+	height: 300px;
+	background-color: rgba(75,0,130,0.9);
+	flex-shrink: 0;
+	flex-grow: 2;
+}
+.two-block{
+	width: 80%;
+	background-color: rgba(65,105,225, 0.5);
+}
+*/
+
+
+/*#2*/
+
+/*.block{
+	margin: 0 auto;
+	background-color: rgba(133,133,133, 0.3);
+	display: flex;
+}
+
+.one-block{
+	width: 300px;
+	height: 300px;
+	background-color: rgba(75,0,130,0.9);
+	flex-shrink: 0;
+}
+.two-block{
+	width: 800px;
+	background-color: rgba(65,105,225, 0.5);
+}*/
+
+
+/*#3*/
+
+
+/*.block{
+	margin: 0 auto;
+	background-color: rgba(133,133,133, 0.3);
+	display: flex;
+}
+
+.one-block{
+	width: 300px;
+	height: 300px;
+	background-color: rgba(75,0,130,0.9);
+	flex-shrink: 0;
+	flex-grow: 2;
+}
+.two-block{
+	width: 80%;
+	background-color: rgba(65,105,225, 0.5);
+	flex-grow: 3;
+}*/
+
+
+/*#4*/
+
+/*.block{
+	margin: 0 auto;
+	background-color: rgba(133,133,133, 0.3);
+}
+
+.one-block{
+	z-index: 1;
+	width: 300px;
+	height: 300px;
+	background-color: rgba(75,0,130,0.9);
+	float: left;
+}
+.two-block{
+	width: 800px;
+	height: 300px;
+	background-color: rgba(65,105,225, 0.5);
+}*/
+
+/*#5*/
+/*.block{
+	margin: 0 auto;
+	background-color: rgba(133,133,133, 0.3);
+	position: relative;
+	display: flex;
+}
+
+.one-block{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	background-color: rgba(75,0,130,0.9);
+}
+.two-block{
+	width: 100%;
+	height: 300px;
+	background-color: rgba(65,105,225, 0.5);
+}*/
+
+/*6*/
+
+/*.block{
+	margin: 0 auto;
+	background-color: rgba(133,133,133, 0.3);
+	position: relative;
+	display: flex;
+}
+
+.one-block{
+	padding-right: 299px;
+	width: 1px;
+	height: 300px;
+	background-color: rgba(75,0,130,0.9);
+}
+.two-block{
+	margin-left:-1px;
+	width: 100%;
+	height: 300px;
+	background-color: rgba(65,105,225, 0.5);
+}*/	
+
+
+/*7*/
+
+/*.block{
+	margin: 0 auto;
+	background-color: rgba(133,133,133, 0.3);
+	position: relative;
+	display: grid;
+	grid-template-columns: 300px 100fr;
+}
+
+.one-block{
+	height: 300px;
+	background-color: rgba(75,0,130,0.9);
+}
+.two-block{
+	width: 100%;
+	background-color: rgba(65,105,225, 0.5);
+}	*/
+
+
