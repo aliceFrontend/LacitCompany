@@ -1,0 +1,144 @@
+body, html, ul, p, button{ 
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	position: relative;
+	font-size: 13px;
+	font-family: 'Manserat', sans-serif;
+	width: 100%;
+	line-height: 1;
+}
+.container{
+	max-width: 1290px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.block{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000;
+	margin: 20px;
+}
+.block-logo{
+	display: flex;
+	width: calc(100%/2);
+}
+.block-logo p{
+	font-family: 'Comfortaa', cursive;
+	font-size: 28px;
+}
+ul li a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.block-mobile, .block-company, .block-community{
+	padding-right: 30px;
+}
+.block-mobile-title{
+	padding-bottom: 16px;
+}
+.block-mobile-title p{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.block-mobile-list ul li{
+	padding-top: 10px;
+}
+.block-mobile-list ul li a{
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+.block-community-title{
+	padding-bottom: 16px;
+}
+.block-community-title p{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.block-community-list ul li{
+	padding-top: 10px;
+}
+.block-community-list ul li a{
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+.block-company-title{
+	padding-bottom: 20px;
+}
+.block-company-title p{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.block-company-list ul li{
+	padding-top: 10px;
+}
+.block-company-list ul li a{
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+.block-auth{
+	display: flex;
+	flex-direction: column;
+}
+.block-auth button{
+	border: 1px solid #18A0FB;
+	margin-top: 10px;
+	background-color: #18A0FB;
+	color: #fff;
+	border-radius: 6px;
+	padding: 10px 25px; 
+}
+.block-auth button:hover{
+border: 1px solid #18A0FB;
+color: #18A0FB;
+background-color: #fff;
+transition: 0.5s;
+}
+.containter-button{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 92%;
+}
+.container-button-list{
+	display: flex;
+	align-items: center;
+}
+.container-button-list-icon{
+	margin-left: 10px;
+	border: 1px solid #18A0FB;
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.container-button-list-icon a img{
+	width: 20px;
+	top: 7px;
+	position: absolute;
+	left: 7px;
+}
