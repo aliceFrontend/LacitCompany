@@ -1,0 +1,161 @@
+@import url('fonts.css');
+.wrapper{
+	background-color: rgb(129,140,147);
+	max-width: 1920px;
+	padding: 100px 275px 100px 275px;
+}
+.modal{
+	max-width: 665px;
+	margin: 0 auto;
+	background-color: rgb(245,245,245);
+	padding: 43px 20px 48px 20px;
+	border-radius: 10px;
+}
+.modal__title{
+	text-align: center;
+	margin: 0 0 35px 0;
+}
+.modal__title p{
+	font: normal 32px 'Source Sans Pro';
+	text-transform: uppercase;
+	color: #707c84;
+}
+.modal__buttons{
+	display: flex;
+	justify-content: center;
+	margin: 0 0 36px 0;
+	position: relative;
+}
+.modal__buttons:before{
+	content: 'OR';
+	display: block;
+	padding: 26px 27px;
+	border-radius: 50%;
+	background-color: #6bbe92;
+	position: absolute;
+	top: -13%;
+    right: 47%;
+    font: normal 15px 'Source Sans Pro';
+    color: #fff;
+
+}
+.modal__btn-login{
+	background-color: #6bbe92;
+	padding: 10px 44px;
+	border-radius: 10px;
+	
+	/*margin: 0 30px 0 0;*/
+}
+.modal__btn-login a{
+	text-decoration: none;
+	color: #fff;
+	font: normal 23px 'Source Sans Pro';
+}
+.modal__btn-register{
+	background-color: #707c84;
+	padding: 10px 44px;
+	border-radius: 10px;
+	
+}
+.modal__btn-register a{
+	text-decoration: none;
+	color: #a4a8ab;
+	font: normal 23px 'Source Sans Pro';
+}
+.modal__body{
+	max-width: 615px;
+	margin: 0 auto;
+	background-color: rgb(254, 254, 254);
+	padding: 33px 33px 35px 33px;
+	border-radius: 10px;
+}
+.modal__body{
+	border: 1px solid #dcdcdc;
+}
+.modal__left{
+	margin: 0 55px 0 0;
+}
+.modal__description p{
+	font: normal 23px 'Source Sans Pro';
+	color: #979797;
+}
+.modal__btn-fs{
+	padding: 18px 5px 19px 5px;
+	background-color: #3c5a98;
+	border-radius: 10px;
+	margin: 0 0 45px 0;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.modal__btn-tw{
+	padding: 18px 5px 19px 5px;;
+	background-color: #00abf0;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.modal__btn-fs img, .modal__btn-tw img{
+	width: 15%;
+	margin: 0 10px 0 0;
+}
+.modal__btn-fs a{
+	font: normal 18px 'Source Sans Pro';
+	color: #fff;
+}
+.modal__btn-fs a span{
+	font: normal 22px 'Source Sans Pro';
+}
+.modal__btn-tw a{
+	font: normal 18px 'Source Sans Pro';
+	color: #fff;
+
+}
+.modal__btn-tw a span{
+	font: normal 22px 'Source Sans Pro';
+}
+.modal__login, .modal__password{
+	display: flex;
+    flex-direction: column;
+}
+.modal__password{
+	margin: 0 0 26px 0;  
+}
+.modal__btn{
+	padding: 15px 47px;
+	font: normal 20px 'Source Sans Pro';
+	color: #fff;
+	background-color: #6bbe92;
+	border-radius: 10px;
+}
+.modal__login{
+	margin: 0 0 27px 0;
+}
+.modal__login label, .modal__password label{
+	font: normal 17px 'Source Sans Pro';
+	color: #a3a3a3;
+}
+.modal__login input, .modal__password input{
+	padding: 20px 21px;
+	border: 0;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	background-color: #f5f5f5;
+}
+
+.modal__form{
+	padding: 60px 0 0 0;
+}
+/*.modal__form:before{
+	content: 'OR';
+	display: block;
+	width: 2px;
+	height: 60px;
+	background-color: red;
+}*/
+.modal__wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
